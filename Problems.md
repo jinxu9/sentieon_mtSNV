@@ -10,6 +10,15 @@ Now we used merged fastq files from individual cell and call SNV on bulk.
 
 The utilmate goal is identify SNVs in each sinlge cell and compare the comman and specific SNVs. 
 
+We don't want to process each cell separatedly at the mapping Step, which may generated too many intermedian files. 
+
+We can add cell barcode or cell name in the mapping step(in the final bam file). 
+
+Is there any efficient way to do the SNV calling for each single cell?  
+
+This maybe similar with SNV calling for multiple individuals, but for somatic SNV, not genotype.
+
+Further more, the number of cells will be around 10000, farther more than individuals. 
 
 # Small bug with "--interval"
 
