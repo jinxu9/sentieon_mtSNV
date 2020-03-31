@@ -4,5 +4,11 @@ Heteroplasmic mutations calling using sentieon toolkit
 # commands: 
 Align_Calling.sh
 
-# output: 
+# Known_SNVs:
+Heterplasmic_sites
+Homoplasmic_sites
+
+# output from sentieon:
+ output-TNscope.vcf.gz.filter
+ 
 
