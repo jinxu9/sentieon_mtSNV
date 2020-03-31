@@ -1,2 +1,8 @@
 # sentieon_mtSNV
-Heteroplasmic mutation calling using sentieon toolkit 
+Heteroplasmic mutations calling using sentieon toolkit 
+
+# commands: 
+Align_Calling.sh
+
+# output: 
+
