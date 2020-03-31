@@ -1,7 +1,8 @@
 #!/bin/sh
 
 ###reference information
-fasta=/public/home/tangzj/hg19/hg19_all.fa
+fasta=/public/home/chenbzh5/DB/hg19/human_g1k_v37/human_g1k_v37.fasta
+#fasta=/public/home/tangzj/hg19/hg19_all.fa
 dbsnp=/public/home/tangzj/hg19/SNP/dbsnp_138.hg19.vcf
 known_1000G_indels=/public/home/tangzj/hg19/SNP/1000G_phase1.snps.high_confidence.hg19.sites.vcf
 known_Mills_indels=/public/home/tangzj/hg19/SNP/Mills_and_1000G_gold_standard.indels.hg19.sites.vcf
