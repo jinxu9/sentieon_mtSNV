@@ -11,7 +11,7 @@ Now we used merged fastq files from individual cell and call SNV on bulk.
 The utilmate goal is identify SNVs in each sinlge cell and compare the comman and specific SNVs. 
 
 
-#  --interval 
+# Small bug with "--interval"
 
 As we only interested in mtDNA SNVs,  it will be efficeint to call SNVs only on chrM.
 while I can't make " --interval " work.
