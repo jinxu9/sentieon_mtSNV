@@ -9,6 +9,10 @@ Heterplasmic_sites
 Homoplasmic_sites
 
 # output from sentieon:
- output-TNscope.vcf.gz.filter
+ * output-TNscope.vcf.gz
+ * output-TNscope.vcg.gz_hetero
+ * output-TNscope.vcg.gz_homo
  
+# Problems: 
+Problems.md
 
