@@ -66,8 +66,7 @@ $SENTIEON_INSTALL_DIR/bin/sentieon driver -r $fasta -t $nt -i deduped.bam --algo
 
 
 #$SENTIEON_INSTALL_DIR/bin/sentieon driver  -r $fasta  -t $nt   -i  deduped.bam --algo TNscope --filter_t_alt_frac 0.005  output-TNscope.vcf.gz 
-#$SENTIEON_INSTALL_DIR/bin/sentieon driver  -r $fasta  -t $nt   -i  deduped.bam --algo TNscope  --tumor_sample $sample --min_tumor_allele_frac 0.01  --interval chrM:0-16024  output-T
-Nscope.vcf.gz 
+#$SENTIEON_INSTALL_DIR/bin/sentieon driver  -r $fasta  -t $nt   -i  deduped.bam --algo TNscope  --tumor_sample $sample --min_tumor_allele_frac 0.01  --interval chrM:0-16024  output-TNscope.vcf.gz 
 $SENTIEON_INSTALL_DIR/bin/sentieon driver  -r $fasta  -t $nt   -i  deduped.bam --algo TNscope  --tumor_sample $sample --min_tumor_allele_frac 0.01  output-TNscope.vcf.gz 
 
 
